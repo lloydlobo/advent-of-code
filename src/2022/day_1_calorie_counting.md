@@ -1,11 +1,20 @@
-# Day 1 Calorie Counting
-
-## Brief
+# Calorie Counting
 
 Santa's reindeer typically eat regular reindeer food, but they need a lot of
 magical energy to deliver presents on Christmas. For that, their favorite snack
 is a special type of star fruit that only grows deep in the jungle. The Elves
-have brought you on their annual expedition to the grove where the fruit grows.
+have brought you on their annual expedition to the grove where the fruit grows.  
+
+</br>
+
+- [Calorie Counting](#calorie-counting)
+  - [Brief](#brief)
+  - [Part 1](#part-1)
+  - [Part 2](#part-2)
+  - [Helpler functions](#helpler-functions)
+  - [Resources](#resources)
+
+## Brief
 
 To supply enough magical energy, the expedition needs to retrieve a minimum of
 fifty stars by December 25th. Although the Elves assure you that the grove has
@@ -177,3 +186,7 @@ fn read_from_file() -> (&'static str, &'static str) {
     (haystack, needle)
 }
 ```
+
+## Resources
+
+- [adventofcode.com](https://adventofcode.com/2022/day/1)

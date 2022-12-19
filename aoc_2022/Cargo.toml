@@ -13,13 +13,19 @@ serde = { version = "1.0.151", features = ["derive"] }
 serde_json = "1.0.90"
 take-until = "0.1.0"
 
-[[bin]]
-name = "day_1_calorie_counting"
-test = true
-bench = false
-
 [profile.dev]
 opt-level = 1
 
 [profile.release]
 opt-level = "z"
+
+
+[[bin]]
+name = "day_1_calorie_counting"
+test = true
+bench = false
+
+[[bin]]
+name = "day_2_rock_paper_scissors"
+test = true
+bench = false

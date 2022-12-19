@@ -110,6 +110,7 @@ impl FsIo {
             .collect::<Vec<_>>();
 
         println!("copy :: {:?}", copy);
+
         // Write `copy` to stdout.
         let mut buf_writer = BufWriter::new(File::create(FILE_OUT)?);
         match buf_writer.write_all(copy.join("\n").as_bytes()) {
