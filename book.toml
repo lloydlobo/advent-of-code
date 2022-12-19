@@ -1,0 +1,6 @@
+[book]
+authors = ["Lloyd Lobo"]
+language = "en"
+multilingual = false
+src = "src"
+title = "aoc"
